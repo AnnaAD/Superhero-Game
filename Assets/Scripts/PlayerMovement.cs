@@ -16,9 +16,9 @@ public class PlayerMovement : MonoBehaviour {
 	void Update () {
 		Vector2.ClampMagnitude(rb.velocity, maxSpeed);
 		rb.AddForce(new Vector2(0f, verticalControls*acceleration));
-		if(Mathf.Abs(verticalControls) < 0.01) {
+		if(Mathf.Abs(verticalControls) < 0.001) {
 			Vector2 currentVelocity = rb.velocity;
-			Vector2 oppositeForce = -currentVelocity * 2;
+			Vector2 oppositeForce = -currentVelocity * acceleration/2;
 			rb.AddForce(oppositeForce);
 		}
 		rb.MoveRotation(rb.velocity.y * 5);
