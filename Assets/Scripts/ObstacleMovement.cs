@@ -17,4 +17,5 @@ public class ObstacleMovement : MonoBehaviour {
 	void OnBecameInvisible() {
 		Destroy(gameObject);
 	}
+		
 }
