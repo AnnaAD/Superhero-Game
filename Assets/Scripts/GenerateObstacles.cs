@@ -13,12 +13,13 @@ public class GenerateObstacles : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Random.Range(0,100) == 1) {
+		if(Random.Range(0,150) == 1) {
 			int obj = Random.Range(0,obstacles.Length);
 
 			GameObject instatiated = Instantiate(obstacles[obj]) as GameObject;
 			instatiated.transform.position = new Vector2(Camera.main.ViewportToWorldPoint(new Vector2(1.1f,0)).x,obstacles[obj].transform.position.y);
 			instatiated.transform.SetParent(this.transform);
+
 		}
 	}
 }
