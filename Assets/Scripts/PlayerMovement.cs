@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour {
 	[SerializeField] private float speed;
 	private Rigidbody2D rb;
 
-	void Awake() {
+	void Start() {
 		rb = GetComponent<Rigidbody2D>();
 	}
 	// Update is called once per frame
