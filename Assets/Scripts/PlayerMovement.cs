@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
 	private float verticalControls;
-	[SerializeField] private float speed;
+	[SerializeField] private float acceleration;
+	[SerializeField] private float maxSpeed;
+
 	private Rigidbody2D rb;
 
 	void Start() {
@@ -12,7 +14,8 @@ public class PlayerMovement : MonoBehaviour {
 	}
 	// Update is called once per frame
 	void Update () {
-		rb.AddForce(new Vector2(0f, verticalControls*speed));
+		Vector2.ClampMagnitude(rb.velocity, maxSpeed);
+		rb.AddForce(new Vector2(0f, verticalControls*acceleration));
 		if(Mathf.Abs(verticalControls) < 0.01) {
 			Vector2 currentVelocity = rb.velocity;
 			Vector2 oppositeForce = -currentVelocity * 2;
