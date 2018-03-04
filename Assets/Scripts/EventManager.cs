@@ -8,7 +8,7 @@ public class EventManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		CollisionDetection.ObstacleCollisionEvent += GameOverEvent;
+		CollisionDetection.ObstacleCollisionEvent += GameOverHelper;
 		GameOverEvent += Test;
 		Debug.Log ("Start");
 	}
@@ -20,7 +20,6 @@ public class EventManager : MonoBehaviour {
 
 	// I wasn't sure how to trigger an event with another event so I used this useless method
 	public void GameOverHelper(){
-		
 		if (GameOverEvent != null)
 			GameOverEvent ();
 	}
