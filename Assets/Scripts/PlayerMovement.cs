@@ -3,14 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
+	private float verticalControls;
 
-	// Use this for initialization
-	void Start () {
+	void Awake() {
 		
 	}
-	
 	// Update is called once per frame
 	void Update () {
-		
+
+	}
+
+	public void Move(float v) {
+		verticalControls = v;
 	}
 }

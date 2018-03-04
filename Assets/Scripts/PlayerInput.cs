@@ -1,16 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
+
 
 public class PlayerInput : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
+	private PlayerMovement playerMovement;
+
+	void Awake() {
+		playerMovement = GetComponent<PlayerMovement>();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+
+	private void FixedUpdate() {
+		float v = CrossPlatformInputManager.GetAxis("Vertical");
+		// Pass all parameters to the character control script.
+		playerMovement.Move(v);
 	}
 }
