@@ -16,8 +16,9 @@ public class PlayerMovement : MonoBehaviour {
 		if(Mathf.Abs(verticalControls) < 0.01) {
 			Vector2 currentVelocity = rb.velocity;
 			Vector2 oppositeForce = -currentVelocity * 2;
-			rb.AddRelativeForce(oppositeForce);
+			rb.AddForce(oppositeForce);
 		}
+		rb.MoveRotation(rb.velocity.y * 5);
 	}
 
 	public void Move(float v) {
