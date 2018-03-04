@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GenerateObstacles : MonoBehaviour {
-	[SerializeField] private GameObject obstacle;
+	[SerializeField] private GameObject[] obstacles;
+
+
 	[SerializeField] public float speed;
 	// Use this for initialization
 	void Start () {
