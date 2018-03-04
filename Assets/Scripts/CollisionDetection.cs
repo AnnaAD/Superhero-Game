@@ -7,7 +7,8 @@ public class CollisionDetection : MonoBehaviour
 	
 	public void OnCollisionEnter2D (Collision2D coll)
 	{
-		if (coll.gameObject.tag.Equals( "Obstacle"))
+		if (coll.gameObject.tag.Equals ("Obstacle")) {
 			Debug.Log ("Collided!");
+		}
 	}
 }
