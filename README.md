@@ -9,6 +9,8 @@ A basic superhero game in unity.
 - [ ] Best Distance
 - [ ] Death
 - [ ] Tweak to make sure it's fun
+- [ ] Birds/Helicopters to avoid
+
 ## Extra Ideas if We Have Time
 - [ ] Powerups
 - [ ] Achievements
