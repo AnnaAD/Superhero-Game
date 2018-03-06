@@ -17,7 +17,7 @@ public class Scoring : MonoBehaviour {
 	void Update () {
 		distanceTraveled += SPEED * (float)Time.deltaTime;
 		uiManager.updateDistanceText (getDistanceTraveled());
-		Debug.Log (getDistanceTraveled ());
+		// Debug.Log (getDistanceTraveled ());
 	}
 
 	public int getDistanceTraveled() {
