@@ -5,9 +5,10 @@ A basic superhero game in unity.
 - [ ] Good art and animations 
 - [ ] Pause Menu
 - [ ] Main Menu
-- [ ] Restart Menu
-- [ ] Best Distance
-- [ ] Death
+- [X] Restart Menu
+- [ ] Best Distance and Data transfer between Scenes
+- [X] Death
+  - [ ] Death Animation
 - [ ] Tweak to make sure it's fun
 - [ ] Birds/Helicopters to avoid
 
@@ -19,3 +20,4 @@ A basic superhero game in unity.
 - [ ] Money and Upgrades
 - [ ] Difficulty
 - [ ] Export to Android and iOS.
+- [ ] Bosses
