@@ -1,5 +1,5 @@
 # Superhero-Game
-This is a basic 2D game made with Unity to get familiar with proper game making workflow and efficiency. The game is a simple 2D side-scroller where players control a superhero to avoid buildings and helicopters.
+This is a basic 2D game made with Unity to get familiar with proper game making workflow and efficiency. The game is a simple 2D side-scroller where players control a superhero to avoid buildings and helicopters. Play it [here](https://annaad.github.io/superhero/). 
 
 **Note:** This project's asset, prefab and scene files are all visible and usable with GitHub! To enable this feature in Unity go to Edit>Project Settings>Editor and under the Version Control Mode section set it to "Visible Meta Files".
 
@@ -17,10 +17,13 @@ Although we are not actively looking for help in programming or game development
   - [ ] Death Animation
 - [ ] Tweak to make sure it's fun
 - [X] Birds/Helicopters to avoid
+- [ ] Implement Music
+- [ ] Create Our own music
 
 ## Extra Ideas if We Have Time:
 - [ ] Particle Trails following the player and helicopters
 - [ ] Powerups
+- [ ] Coins/Store
 - [ ] Achievements
 - [ ] Score
 - [ ] Scrolling Background and/or Clouds
@@ -28,3 +31,4 @@ Although we are not actively looking for help in programming or game development
 - [ ] Difficulty
 - [ ] Export to Android and iOS.
 - [ ] Bosses
+- [ ] Saving people / Cats from rooftops
