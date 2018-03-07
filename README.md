@@ -1,7 +1,7 @@
 # Superhero-Game
 This is a basic 2D game made with Unity to get familiar with proper game making workflow and efficiency. The game is a simple 2D side-scroller where players control a superhero to avoid buildings and helicopters.
 
-Note: This project's asset, prefab and scene files are all visible and usable with GitHub! To enable this feature in Unity go to Edit>Project Settings>Editor and under the Version Control Mode section set it to "Visible Meta Files".
+**Note:** This project's asset, prefab and scene files are all visible and usable with GitHub! To enable this feature in Unity go to Edit>Project Settings>Editor and under the Version Control Mode section set it to "Visible Meta Files".
 
 We are looking for artists and musicians! Any good sound effects, background music or sprites/animation are greatly appreciated!
 
