@@ -21,7 +21,7 @@ public class GenerateObstacles : MonoBehaviour {
 		countBetweenBuildings += Time.fixedDeltaTime;
 		if(countBetweenBuildings > timeBetweenBuildings) {
 			countBetweenBuildings = 0;
-			int obj = Random.Range(0,staticObstacles.Length-1);
+			int obj = Random.Range(0,staticObstacles.Length);
 
 			GameObject instatiated = Instantiate(staticObstacles[obj]) as GameObject;
 			instatiated.transform.position = new Vector2(Camera.main.ViewportToWorldPoint(new Vector2(1.2f,0)).x,staticObstacles[obj].transform.position.y);
