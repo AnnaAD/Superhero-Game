@@ -10,9 +10,10 @@ A basic superhero game in unity.
 - [X] Death
   - [ ] Death Animation
 - [ ] Tweak to make sure it's fun
-- [ ] Birds/Helicopters to avoid
+- [X] Birds/Helicopters to avoid
 
 ## Extra Ideas if We Have Time
+- [ ] Particle Trails following the player and helicopters
 - [ ] Powerups
 - [ ] Achievements
 - [ ] Score
