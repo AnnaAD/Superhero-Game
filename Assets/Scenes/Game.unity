@@ -331,7 +331,17 @@ Prefab:
     - target: {fileID: 114572547077087896, guid: fdc65508a849b4e088400c11c707e0c6,
         type: 2}
       propertyPath: acceleration
-      value: 0.05
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 114572547077087896, guid: fdc65508a849b4e088400c11c707e0c6,
+        type: 2}
+      propertyPath: chanceOfExtraObstacle
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 114572547077087896, guid: fdc65508a849b4e088400c11c707e0c6,
+        type: 2}
+      propertyPath: timeBetweenBuildings
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fdc65508a849b4e088400c11c707e0c6, type: 2}
