@@ -6,15 +6,18 @@ public class GenerateObstacles : MonoBehaviour {
 	[SerializeField] private GameObject[] obstacles;
 	[SerializeField] private float timeBetweenBuildings;
 
-
+	//The speed of all obstacles, effectivally the horizontal speed of the player
 	[SerializeField] public float speed;
+	[SerializeField] public float acceleration;
 	// Use this for initialization
 	void Start () {
+		timeBetweenBuildings = 0;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		timeBetweenBuildings += Time.fixedDeltaTime;
+		speed += Time.fixedDeltaTime * acceleration;
 		if(timeBetweenBuildings > 2.6) {
 			timeBetweenBuildings = 0;
 			int obj = Random.Range(0,obstacles.Length);

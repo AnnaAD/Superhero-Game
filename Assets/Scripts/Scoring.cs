@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class Scoring : MonoBehaviour {
 	private float distanceTraveled;
-	private readonly float SPEED = 10f;
 	private UIManager uiManager;
-
+	private GenerateObstacles obstacleScript;
 	// Use this for initialization
 	void Start () {
 		distanceTraveled = 0;
 		uiManager = GameObject.Find ("UI").GetComponent<UIManager> ();
+		obstacleScript = GameObject.Find("Obstacles").GetComponent<GenerateObstacles>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		distanceTraveled += SPEED * (float)Time.deltaTime;
+		distanceTraveled += obstacleScript.speed * (float)Time.deltaTime;
 		uiManager.updateDistanceText (getDistanceTraveled());
 		// Debug.Log (getDistanceTraveled ());
 	}
