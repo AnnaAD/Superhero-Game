@@ -51,10 +51,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5c78f459d90a445381a6f5cdf4bfcc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstacles:
+  staticObstacles:
   - {fileID: 1612233490664168, guid: 938fd9a2f76f042f4bdc95e96de01fc7, type: 2}
   - {fileID: 1759884161201122, guid: 3eda2b92f378343c2817e3ba2b86189c, type: 2}
-  - {fileID: 1026992500863962, guid: 4c5d2014d8fa94fe289e3916f698cffc, type: 2}
   - {fileID: 1790050265173706, guid: 33afc513146fe448bada30c02197cbe3, type: 2}
+  - {fileID: 1026992500863962, guid: 4c5d2014d8fa94fe289e3916f698cffc, type: 2}
   - {fileID: 1371591125803694, guid: 364a8406b2cf342008cd937557c80db5, type: 2}
+  fastObstacles:
+  - {fileID: 1293434770754250, guid: 1cd8fe8f00b144083a9b171fd8b7cefe, type: 2}
+  timeBetweenBuildings: 2.3
+  chanceOfExtraObstacle: 150
   speed: 3
