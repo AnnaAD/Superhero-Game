@@ -328,21 +328,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 114572547077087896, guid: fdc65508a849b4e088400c11c707e0c6,
-        type: 2}
-      propertyPath: acceleration
-      value: 0.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 114572547077087896, guid: fdc65508a849b4e088400c11c707e0c6,
-        type: 2}
-      propertyPath: chanceOfExtraObstacle
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 114572547077087896, guid: fdc65508a849b4e088400c11c707e0c6,
-        type: 2}
-      propertyPath: timeBetweenBuildings
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fdc65508a849b4e088400c11c707e0c6, type: 2}
   m_IsPrefabParent: 0
@@ -385,33 +370,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 212907768093069400, guid: 859f82e0eabea4d4aa5f75944ba36b03,
-        type: 2}
-      propertyPath: m_SortingLayerID
-      value: 523081945
-      objectReference: {fileID: 0}
-    - target: {fileID: 212907768093069400, guid: 859f82e0eabea4d4aa5f75944ba36b03,
-        type: 2}
-      propertyPath: m_SortingLayer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114020845997303062, guid: 859f82e0eabea4d4aa5f75944ba36b03,
-        type: 2}
-      propertyPath: acceleration
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 114020845997303062, guid: 859f82e0eabea4d4aa5f75944ba36b03,
-        type: 2}
-      propertyPath: maxSpeed
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 114020845997303062, guid: 859f82e0eabea4d4aa5f75944ba36b03,
-        type: 2}
-      propertyPath: decelerationFactor
-      value: 0.75
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114090120115502380, guid: 859f82e0eabea4d4aa5f75944ba36b03, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 859f82e0eabea4d4aa5f75944ba36b03, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1652596875

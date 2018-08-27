@@ -57,8 +57,14 @@ MonoBehaviour:
   - {fileID: 1790050265173706, guid: 33afc513146fe448bada30c02197cbe3, type: 2}
   - {fileID: 1026992500863962, guid: 4c5d2014d8fa94fe289e3916f698cffc, type: 2}
   - {fileID: 1371591125803694, guid: 364a8406b2cf342008cd937557c80db5, type: 2}
+  - {fileID: 1859035299216122, guid: f5b62e22d27539c4abb81d77d64dc798, type: 2}
+  - {fileID: 1063384921013024, guid: 8a4069ec8e2570e43ae765e157c52acf, type: 2}
+  - {fileID: 1672456283046836, guid: 4762ddec79db19a4b9472985c63df33d, type: 2}
+  - {fileID: 1790631724429696, guid: 69a0e8d9c1be8474dabf8fab8dec90a4, type: 2}
   fastObstacles:
   - {fileID: 1293434770754250, guid: 1cd8fe8f00b144083a9b171fd8b7cefe, type: 2}
-  timeBetweenBuildings: 2.3
-  chanceOfExtraObstacle: 150
+  timeBetweenBuildings: 12
+  minFlyingTime: 13
+  maxFlyingTime: 18
   speed: 3
+  acceleration: 0.04
